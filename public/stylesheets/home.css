@@ -1,0 +1,131 @@
+/*主要*/
+.main{
+	width: 100%;
+  margin-top: 30px;
+  margin-bottom: 21px;
+}
+ .inner{
+ 	width: 1232px;
+  height: 676px;
+  position: relative;
+  margin-bottom: 22px;
+  background: url(/images/30.jpg) no-repeat 0px 0px;
+  background-size: 100% 100%;
+ }
+ .inner ul{
+ 	left: 138px;
+  bottom: 50px;
+  position: absolute;
+ }
+.inner ul li{
+	width: 233px;
+	height: 198px;
+	margin-right: 5px;
+	position: relative;
+	text-align: center;
+	border-radius: 10px;
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+	top: 0;
+}
+.inner ul li p{
+	color: #8194a6;
+  font-size: 18px;
+}
+.inner ul li span{
+	height: 100px;
+  margin: 0px auto;
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+.ios{
+	width: 83px;
+    background: url(http://www.jingyingba.com/Public/home/images/ios_bg.png) no-repeat 0px 0px;
+}
+.html{
+	width: 89px;
+  background: url(http://www.jingyingba.com/Public/home/images/html5_bg.png) no-repeat 0px 0px;
+}
+.unity{
+  width: 97px;
+  background: url(http://www.jingyingba.com/Public/home/images/unity_bg.png) no-repeat 0px 0px;
+}
+.more{
+	width: 87px;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 28px;
+    margin-bottom: 18px;
+}
+.more em{
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-top: 65px;
+  margin-right: 9px;
+  border-radius: 50px;
+  background: #8194a6;
+}
+.inner ul li.on{
+	border:1px solid #fb6c03;
+	box-shadow:0px 4px 20px #635241;
+}
+.inner ul li.on span.ios{
+	background:url(http://www.jingyingba.com/Public/home/images/ios_bg2.png) no-repeat 0px 0px;	
+}
+.inner ul li.on span.html{
+	background:url(http://www.jingyingba.com/Public/home/images/html5_bg2.png) no-repeat 0px 0px;	
+}
+.inner ul li.on span.unity{
+	background:url(http://www.jingyingba.com/Public/home/images/unity_bg2.png) no-repeat 0px 0px;	
+}
+.inner ul li.on .more em{
+	background:#fb6c03;
+}
+.inner ul li.on p{
+	color:#fb6c03;
+}
+.cooperation{
+	height: 100%;
+  width: 1232px;
+  overflow: hidden;
+  background: #fff;
+}
+.cooup{
+	height: 50px;
+  line-height: 50px;
+  margin: 46px 52px 52px 60px;
+}
+.uptitle{
+  color: #65707a;
+  font-size: 14px;
+   margin-right: 50px;
+}
+.upbox{
+  height: 50px;
+  width: 996px;
+  overflow: hidden;
+}
+.upbox ul{
+	width: 100000000px;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.upbox ul li{
+	width: 152px;
+  height: 50px;
+  margin-right: 14px;
+}
+.upbox ul li img{
+	width: 100%;
+	height: 100%;
+}
+.next{
+	width: 8px;
+  height: 15px;
+  cursor: pointer;
+  margin-top: 18px;
+  background: url(http://www.jingyingba.com/Public/home/images/other_ico.png) no-repeat 0px 0px;
+}

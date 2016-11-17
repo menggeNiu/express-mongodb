@@ -1,0 +1,23 @@
+extends layout
+
+block content
+		div.main.auto
+			link(rel="stylesheet", href="/stylesheets/class.css")
+			div.lunbo
+				ul.lunbobox
+					li.fl
+						a(href='/').block
+							img(src="/images/lun1.jpg")
+					li.fl
+						a(href='/').block
+							img(src="/images/lun2.jpg")
+					li.fl
+						a(href='/').block
+							img(src="/images/lun3.jpg")
+				ul.circlebox
+					li.circlebtn
+					li.circlebtn
+					li.circlebtn
+				div.btnleft.turnbtn
+				div.btnright.turnbtn
+		script(src='/javascripts/list.js')

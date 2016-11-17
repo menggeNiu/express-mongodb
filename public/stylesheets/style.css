@@ -1,0 +1,298 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	color: #333;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  min-width: 1232px;
+  background: #f5f5f5;
+  font-family: Microsoft Yahei;
+}
+.block{
+	display: block;
+}
+.auto{
+	margin: 0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+ul,ol{
+	list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input,textarea{
+	border: none;
+  outline: none;
+  background: none !important;
+  background-color: transparent !important;
+  font-family: Microsoft Yahei;
+}
+/*头部样式*/
+.header{
+	width: 100%;
+	height: 90px;
+	background: #323339;
+	color: #fff;
+}
+.header .content{
+	width: 1232px;
+	height: 90px;
+}
+.header .left{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	color: #fff;
+	overflow: hidden;
+}
+.header .left ul{
+	float: left;
+	height: 90px;
+}
+.header .left ul li{
+	margin-right: 40px;
+}
+.header .left ul li a{
+	color: #fff;
+	font-size: 16px;
+}
+.header .left ul li a.on{
+	color: #fb6c03;
+  font-weight: bold;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #fb6c03;
+}
+.header .left ul li a:hover{
+	color: #fb6c03;
+}
+.header .left .logo{
+	height: 90px;
+    margin-right: 38px;
+}
+.header .left .logo a{
+	height: 90px;
+  display: block;
+  margin-right: 10px
+}
+.header .left .logo a img{
+	margin-top: 27px;
+}
+.header .left .logo span img{
+	margin-top: 30px;
+}
+.header .right{
+	height: 90px;
+}
+.header .right .login{
+	height: 90px;
+	line-height: 90px;
+}
+.header .right .login a{
+  padding-bottom: 32px;
+	color: #fff;
+	font-size: 14px;
+}
+.header .right .login a.onlink{
+  color: #fb6c03;
+  border-bottom: 2px solid #fb6c03;
+}
+.header .right .login a:hover{
+	color: #fb6c03;
+}
+ .header .right .login span{
+ 	margin: 0 10px;
+ }
+ .headpic{
+	margin-top: 25px;
+  margin-right: 8px;
+  position: relative;
+}
+.headpic img{
+	width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  margin-bottom: -18px;
+  margin-right: 5px;
+}
+.headpic a{
+	color:#fff;
+	font-size: 12px;
+}
+.headpic a.on{
+	color: #fb6c03;
+}
+.headpic em{
+  width: 1px;
+  height: 13px;
+  margin: 0px 8px;
+  margin-bottom: -2px;
+  background: #cccccc;
+  display: inline-block;
+  font-style: normal;
+}
+.headpic .core{
+	font-size: 12px;
+  cursor: pointer;
+  padding-right: 12px;
+  display: inline-block;
+  background: url(http://www.jingyingba.com/Public/home/images/triangle2.png) no-repeat center right;
+}
+.headpic .core.on{
+	color: #fb6c03;
+  background: url(http://www.jingyingba.com/Public/home/images/triangle.png) no-repeat center right;ckground: url(http://www.jingyingba.com/Public/home/images/triangle.png) no-repeat center right;
+ }
+ .classcenter{
+ 	top: 55px;
+ 	display: none;
+  z-index: 199;
+  right: -10px;
+  width: 184px;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 6px 20px rgba(197,197,197,0.75);
+}
+.classcenter i{
+	top: -11px;
+  left: 109px;
+  width: 21px;
+  height: 11px;
+  position: absolute;
+  background: url(http://www.jingyingba.com/Public/home/images/other_ico.png) no-repeat 0px -512px;
+}
+.classcenter ul li{
+	height: 64px;
+  color: #65707a;
+  font-size: 16px;
+  line-height: 64px;
+  text-align: center;
+}
+.classcenter a{
+	color: #65707a;
+	font-size: 16px;
+}
+.classcenter a:hover{
+	color: #fb6c03;
+  background: #fafafa
+}
+/*脚部*/
+.footer{
+	width: 100%;
+	background: #323339;
+}
+.footer .content{
+	width: 1232px;
+}
+.footerup{
+	height: 100%;
+  width: 1232px;
+  overflow: hidden;
+}
+.up_left{
+	width: 435px;
+  margin-top: 34px;
+  margin-right: 66px;
+  margin-bottom: 78px;
+}
+.up_leftupimg{
+	width: 189px;
+  height: 77px;
+  margin-bottom: 26px;
+}
+.up_leftupimg img{
+	width: 100%;
+	height: 100%;
+}
+.up_left p{
+	color: #aeaeae;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 22px;
+}
+.code{
+	position: relative;
+}
+.code span{
+	color: #ffffff;
+  font-size: 14px;
+  line-height: 26px;
+}
+.code em{
+	height: 26px;
+  display: block;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.wechat{
+	width: 32px;
+  background: url(http://www.jingyingba.com/Public/home/images/wechat2.png) no-repeat 0px 0px;
+}
+.blog{
+	width: 32px;
+  background: url(http://www.jingyingba.com/Public/home/images/microblog.png) no-repeat 0px 0px;
+}
+.up_center{
+	margin-top: 92px
+}
+.up_center ul{
+	margin-right: 70px;
+}
+.up_center ul span{
+	color: #ffffff;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+.up_center ul li{
+	margin-bottom: 8px;
+}
+.up_center ul li a{
+	color: #aeaeae;
+  font-size: 13px;
+}
+.up_center ul li a:hover{
+	color: #fff;
+}
+.up_right{
+  margin-top: 92px;
+  margin-left: 50px;
+}
+.up_right p{
+	position: relative;
+}
+.up_right span{
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+}
+.footerdown{
+	width: 100%;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  background: #2d2e34;
+  border-top: 1px solid #3b3c41;
+}
+.footerdown span{
+	color: #ffffff;
+  font-size: 13px;
+}
+.footerdown a{
+  color: #ffffff;
+  font-size: 13px;
+  margin-left: 12px;
+}
+.footerdown a:hover{
+	text-decoration: underline;
+}

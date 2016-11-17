@@ -1,0 +1,186 @@
+.main{
+  width: 1232px;
+  margin-top: 30px;
+  margin-bottom: 21px;
+}
+/*轮播图*/
+ .lunbo{
+ 	width: 1232px;
+ 	height: 406px;
+ 	position: relative;
+ 	overflow: hidden;
+
+ }
+ .lunbo .lunbobox{
+ 	position: absolute;
+ 	width: 3696px;
+ 	height:406px;
+ 	left:0;
+ 	transition-duration:0.5s;
+ }
+ .lunbo .lunbobox li a{
+ 	width: 1232px;
+ 	height: 406px;
+ }
+ .lunbo .lunbobox li a img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .circlebox{
+ 	position: absolute;
+ 	right: 33px;
+  bottom: 25px;
+ }
+ .circlebox .circlebtn{
+	width: 8px;
+  height: 8px;
+  float: left;
+  cursor: pointer;
+  margin-left: 6px;
+  border-radius: 50px;
+  background: rgba(255,255,255,0.5);
+ }
+ .circlebtn:first-child{
+ 	background: #fff;
+ }
+ .turnbtn{
+ 	top: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  margin-top: -40px;
+  position: absolute;
+  background: pink;
+  display: none;
+ }
+ .btnleft{
+ 	left: 20px;
+    background: url(http://www.jingyingba.com/Public/home/images/banner_left.png) no-repeat 0px 0px;
+ }
+ .btnright{
+	right:20px;
+	background: url(http://www.jingyingba.com/Public/home/images/banner_right.png) no-repeat 0px 0px;
+ }
+ /*空格div*/
+ .ke{
+  height: 30px;
+ }
+ /*课程项*/
+ .liveclass{
+  overflow: hidden;
+  min-height: 610px;
+ }
+ .liveclass_left{
+    width: 184px;
+    background: #ffffff;
+ }
+ .liveclass_left ul li{
+  height: 64px;
+  line-height: 64px;
+ }
+ .liveclass_left ul li a{
+  color: #65707a;
+  font-size: 14px;
+  padding-left: 49px;
+ }
+ .liveclass_left ul li a.on{
+  color: #fb6c03;
+  background: #fafafa url(http://www.jingyingba.com/Public/home/images/other_ico.png) no-repeat 152px -346px;
+ }
+ .liveclass_right{
+  width: 1024px;
+  min-height: 610px;
+ }
+ .liveclass_right_title{
+  overflow: hidden;
+  margin-bottom: 20px;
+ }
+ .liveclass_right_title a{
+  width: 180px;
+  color: #65707a;
+  font-size: 16px;
+ }
+ .liveclass_right_title a span{
+  width: 180px;
+  color: #65707a;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  padding-bottom: 20px;
+  display: inline-block;
+ }
+ .liveclass_right_title a span.on{
+  color: #fb6c03;
+  border-bottom: 2px solid #fb6c03;
+ }
+ .livecourse_right_box{
+  width: 1022px;
+  height: 190px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+ }
+ .livecourse_right_box:hover{
+  border: 1px solid #fb6c03;
+  box-shadow: 3px 5px 10px #e2e2e2;
+ }
+ .livecourse_right_box a{
+  width: 1024px;
+  height: 190px;
+ }
+ .livecourse_right_box a img{
+  width: 300px;
+  height: 150px;
+  border: 1px solid #e5e5e5;
+  margin: 19px 22px 19px 20px;
+ }
+ .info{
+  width: 476px;
+  margin: 24px 0px 19px 0px;
+ }
+ .title{
+  color: #65707a;
+    font-size: 20px;
+    margin-bottom: 2px;
+ }
+ .livecourse_right_box p span{
+  color: #989da2;
+  font-size: 12px;
+  margin-right: 20px;
+ }
+ .livecourse_right_box em{
+  color: #65707a;
+  display: block;
+  font-size: 14px;
+  margin-top: 13px;
+  overflow: hidden;
+  max-height: 62px;
+  line-height: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-style: normal;
+ }
+ .price{
+  width: 130px;
+  text-align: right;
+  margin: 32px 26px 0px 0px;
+ }
+ .price em{
+  display: block;
+  color: #c3c8cd;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: line-through;
+ }
+.price i{
+  color: #fb6c03;
+  font-size: 20px;
+  font-style: italic;
+}
+.livecoursenull{
+  width: 398px;
+  height: 177px;
+  margin-top: 85px;
+  margin-left: 270px;
+}

@@ -1,0 +1,62 @@
+extends layout
+
+block content
+		div.main.auto
+			link(rel="stylesheet", href="/stylesheets/class.css")
+			div.lunbo
+				ul.lunbobox
+					li.fl
+						a(href='/').block
+							img(src="/images/lun1.jpg")
+					li.fl
+						a(href='/').block
+							img(src="/images/lun2.jpg")
+					li.fl
+						a(href='/').block
+							img(src="/images/lun3.jpg")
+				ul.circlebox
+					li.circlebtn
+					li.circlebtn
+					li.circlebtn
+				div.btnleft.turnbtn
+				div.btnright.turnbtn
+			div.ke
+			div.liveclass
+				div.liveclass_left.fl
+					ul
+						li
+							a(href="/list0").block 全部
+						li
+							a(href="/list1").block.on iOS
+						li
+							a(href="/list2").block HTML5
+						li
+							a(href="/list3").block Unity-3D
+						li
+							a(href="/list4").block React Native
+				div.liveclass_right.fr
+					div.liveclass_right_title
+						a(href="/iostype0").fl.block
+							span.block 全部
+						a(href="/iostype1").fl.block
+							span.block.on 直播课程
+						a(href="/iostype2").fl.block
+							span.block 点播课程
+					div.livecourse_right_cont
+						if(data.length!=0)
+							-each course in data
+								div.livecourse_right_box
+									a(href="/").block
+										img(src="#{course.pic}", alt="").fl
+										div.info.fl
+											div.title #{course.classname}
+											p
+												span 蓝鸥科技
+												span 总课时:18
+											em  #{course.des}
+										div.price.fr
+											em #{course.oldprice}
+											i #{course.price}
+						else
+							img(src="http://www.jingyingba.com/Public/home/images/165200.png", alt="").livecoursenull
+		script(src='/javascripts/list.js')

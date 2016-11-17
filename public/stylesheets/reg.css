@@ -1,0 +1,132 @@
+/*共有部分*/
+.loginbox{
+	width: 100%;
+  height: 678px;
+  position: relative;
+  background: url(/images/loginbg.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+.loginbox .logreg_box{
+	top: 79px;
+  width: 352px;
+  right: 150px;
+  position: absolute;
+}
+.logreg_title{
+  width: 352px;
+  height: 60px;
+  line-height: 60px;
+}
+.logreg_title span{
+	width: 176px;
+  color: #999999;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5) !important;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  background: #000;
+}
+.logreg_title span.on{
+	color: #ffffff;
+  background-color: rgba(0,0,0,0.7) !important;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  background: #000;
+ }
+ .log{
+ 	width: 300px;
+ 	display: none;
+  padding: 32px 26px 44px 26px;
+  background-color: rgba(0,0,0,0.7) !important;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  background: #000;
+ }
+.box{
+	width: 298px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+}
+.box span{
+	float: left;
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: url(http://www.jingyingba.com/Public/home/images/other_ico.png) no-repeat;
+}
+.box span.tel{
+  background-position: 13px -73px;
+}
+.box input{
+	height: 18px;
+  width: 258px;
+  color: #ffffff;
+  font-size: 14px;
+  text-indent: 10px;
+  padding: 11px 0px;
+  position: absolute;
+}
+.box span.pass{
+  background-position: 13px -182px;
+}
+.rememberme{
+  overflow: hidden;
+	margin-top: -14px;
+}
+.rememberme p span{
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.forget{
+	color: #ffffff;
+	font-size: 14px;
+}
+.forget:hover{
+	text-decoration:underline;
+}
+.btn{
+	width: 300px;
+  height: 42px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 27px;
+  line-height: 42px;
+  border-radius: 2px;
+  text-align: center;
+  background: #fb6c03;
+}
+/*注册*/
+.reg{
+  width: 300px;
+  padding: 32px 26px 44px 26px;
+  background-color: rgba(0,0,0,0.7) !important;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  background: #000;
+}
+.reg p span{
+	color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.submit{
+	width: 300px;
+  height: 42px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 27px;
+  line-height: 42px;
+  border-radius: 2px;
+  text-align: center;
+  background: #fb6c03;
+}
+.on{
+	background: #ccc;
+}

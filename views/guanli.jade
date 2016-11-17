@@ -1,0 +1,26 @@
+doctype
+html
+	head
+		meta(chatset='utf-8')
+		title 课程管理后台
+	body
+		h1 #{title}
+		div.list
+			span 课程名字
+			input(type="text" placeholder='课程名称').classname
+			span 描述
+			input(type="text").des
+			span 价格
+			input(type="text").price
+			span 原价
+			input(type="text").oldprice
+			span 图片
+			input(type="text").pic
+			span 类型
+			input(type="text").type
+			span 所属领域
+			input(type="text").lingyu
+		div.btn 提交
+		p
+		script(src='/javascripts/ajax.js')
+		script(src='/javascripts/class.js')

@@ -1,0 +1,50 @@
+extends layout
+
+block content
+		div.main.auto
+			link(rel="stylesheet", href="/stylesheets/class.css")
+			div.lunbo
+				ul.lunbobox
+					li.fl
+						a(href='/').block
+							img(src="/images/lun1.jpg")
+					li.fl
+						a(href='/').block
+							img(src="/images/lun2.jpg")
+					li.fl
+						a(href='/').block
+							img(src="/images/lun3.jpg")
+				ul.circlebox
+					li.circlebtn
+					li.circlebtn
+					li.circlebtn
+				div.btnleft.turnbtn
+				div.btnright.turnbtn
+			div.ke
+			div.liveclass
+				div.liveclass_left.fl
+					ul
+						li
+							a(href="/centerclass").block 我的课程
+						li
+							a(href="/centerorder").block.on 我的订单
+						li
+							a(href="/centerpurse").block 我的钱包
+						li
+							a(href="/centeraccount").block 账户设置
+				div.liveclass_right.fr
+					div.liveclass_right_title
+						a(href="javascript:void(0);").fl.block
+							span.block.on 全部
+						a(href="javascript:void(0);").fl.block
+							span.block 待付款
+						a(href="javascript:void(0);").fl.block
+							span.block 付款失败
+						a(href="javascript:void(0);").fl.block
+							span.block 支付完成
+						a(href="javascript:void(0);").fl.block
+							span.block 已退款
+					div.livecourse_right_cont
+						
+
+		script(src='/javascripts/list.js')

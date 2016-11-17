@@ -1,0 +1,39 @@
+
+extends layout
+block content
+	div.loginbox
+		link(rel="stylesheet", href="/stylesheets/login.css")
+		div.logreg_box
+			div.logreg_title
+				span.loginbtn.on.fl 登录
+				span.resbtn.fl 注册
+			div.log
+				div.box
+					span.fl.tel
+					input(type="text" placeholder='请输入用户名').username.fl
+				div.box
+					span.fl.pass
+					input(type="password" placeholder='请输入密码').password.fl
+				div.rememberme
+					p.fl
+						input(type="checkbox")
+						span 记住我
+					a(href="/").fr.forget 忘记密码
+				div.btn 登录
+			div.reg
+				div.box
+					span.fl.tel
+					input(type="text" placeholder='请输入用户名').usernames
+				div.box
+					span.fl.pass
+					input(type="password" placeholder='请输入密码').passwords
+				div.box
+					span.fl.tel
+					input(type="email" placeholder='请输入邮箱').email
+				p
+					input(type="checkbox")
+					span 同意网站条款
+				div.submit 提交
+	script(src='/javascripts/ajax.js')
+	script(src='/javascripts/jquery.js')
+	script(src='/javascripts/login.js')

@@ -1,0 +1,43 @@
+div.header
+	div.content.auto
+		div.left
+			div.fl.logo
+				a(href='/').fl
+					img(src="/images/logo.png")
+				span.fl
+					img(src="/images/find.png")
+			ul.fl
+				li.fl
+					if(click1)
+						a(href="/alltype1").on 直播课程
+					else
+						a(href="/alltype1") 直播课程
+				li.fl
+					if(click2)
+						a(href="/alltype2").on 点播课程
+					else
+						a(href="/alltype2") 点播课程
+		div.right.fr
+			if(islogin)
+				div.headpic.fr
+					img(src='/images/bear.png')
+					span.core.block
+						a(href="/centerclass") 个人中心
+					em
+					a(href="/loginout") 退出
+					div.classcenter
+						i
+						ul
+							li
+								a(href="/centerclass").block 我的课程
+							li
+								a(href="/centerorder").block 我的订单
+							li
+								a(href="/centerpurse").block 我的钱包
+							li
+								a(href="/centeraccount").block 账户设置
+			else
+				div.login
+					a(href='/login') 登录
+					span |
+					a(href='/reg') 注册
